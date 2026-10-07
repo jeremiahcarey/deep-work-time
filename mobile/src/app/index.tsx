@@ -11,8 +11,8 @@ export default function HomeScreen() {
           <Text className="text-4xl font-bold text-foreground">
             Deep Work Time
           </Text>
-          <Button className="mt-4">
-            <Text className="text-center inline-flex items-center justify-center">Start Deep Work</Text>
+          <Button size="lg" className="mt-4">
+            <Text className="text-center inline-flex items-center justify-center font-bold">Start Deep Work</Text>
           </Button>
         </View>
       </SafeAreaView>
