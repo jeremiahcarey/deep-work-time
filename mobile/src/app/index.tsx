@@ -8,11 +8,11 @@ export default function HomeScreen() {
     <View className="flex-1 bg-background">
       <SafeAreaView style={{ flex: 1 }} edges={['top', 'left', 'right']}>
         <View className="flex-1 items-center justify-center px-6">
-          <Text className="text-xl font-bold text-foreground">
-            Welcome to Nativewind!
+          <Text className="text-4xl font-bold text-foreground">
+            Deep Work Time
           </Text>
-          <Button className="mt-4 default">
-            <Text>Button Test!</Text>
+          <Button className="mt-4">
+            <Text className="text-center inline-flex items-center justify-center">Start Deep Work</Text>
           </Button>
         </View>
       </SafeAreaView>
